@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gma-ad-services-config>
+    <ad-services-config>
+        <signal-collection enabled="true" />
+        <consent-flow enabled="true" />
+    </ad-services-config>
+</gma-ad-services-config>

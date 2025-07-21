@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/biodata_bg_start"
+                android:endColor="@color/biodata_bg_end"
+                android:angle="45" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/golden_border" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Matrimo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="continue_to_preview">Continue to Preview</string>
+    <string name="back_to_edit">Back to Edit</string>
+    <string name="choose_template">Choose Another Template</string>
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="pdf_saved">PDF saved to Downloads/Matrimo</string>
+    <string name="view_or_share">View or Share?</string>
+    <string name="default_web_client_id">689284758473-ti7r99g7ml4pf8jj19n9704gmsg4dhsc.apps.googleusercontent.com</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

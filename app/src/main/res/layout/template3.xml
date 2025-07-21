@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relativee" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/relative" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="horizontal" android:id="@+id/framelayout" android:background="@color/white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/layout_frame" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="50.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/pine_green" android:id="@+id/preview_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:textAllCaps="true" android:fontFamily="@font/alatsiregular" />
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/pine_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Personal Details" android:textAllCaps="true" android:fontFamily="@font/breeserifregular" />
+                    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_name1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_dob_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Age :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_age" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_height_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Height :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_weight_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Weight :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_weight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_poccupation_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Occupation :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_profession" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_hobby_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Hobby :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_hobbies" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_mobile_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mobile :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:maxLength="10" android:layout_weight="30.0" android:inputType="number" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_address_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Address :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/pine_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Education" android:textAllCaps="true" android:fontFamily="@font/breeserifregular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_college_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Qualification :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_qualification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/pine_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Family Background" android:textAllCaps="true" android:fontFamily="@font/breeserifregular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Father :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_father_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_foccuption_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Occupation :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_father_occupation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mother :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_mother_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_moccuption_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Occupation :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_mother_occupation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_brother_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Brother :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_brothers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_np_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sister :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_sisters" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/pine_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Additional Info" android:textAllCaps="true" android:fontFamily="@font/breeserifregular" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="100.0">
+                        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tv_mname_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Additional :" android:layout_weight="70.0" />
+                        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/preview_additional_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_weight="30.0" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout  android:background="@drawable/green_image_frame" android:gravity="right" android:layout_gravity="right" android:orientation="vertical" android:id="@+id/ll_photo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="10dp">
+                <ImageView android:layout_gravity="right" android:id="@+id/preview_photo" android:layout_width="90.0dip" android:layout_height="110.0dip" android:scaleType="centerCrop" android:elevation="5.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

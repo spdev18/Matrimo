@@ -1,0 +1,48 @@
+## Short Description (80 characters)
+Create beautiful biodata for matrimony profiles easily with Matrimo.
+
+## Full Description (4000 characters)
+# Matrimo - Beautiful Biodata Creator
+
+**Welcome to Matrimo V5.0 - The Ultimate Biodata Creator for Marriage Profiles!**
+
+Matrimo is a user-friendly app designed to help you create professional and attractive matrimonial biodatas in minutes. Perfect for individuals, families, and matchmakers looking to create impressive marriage profiles.
+
+## Key Features:
+
+✅ **Multiple Elegant Templates** - Choose from a variety of culturally appropriate designs including Hindu and Muslim-themed templates
+
+✅ **Easy to Use Interface** - Fill in your details once and instantly preview how your biodata will look
+
+✅ **High-Quality Exports** - Download your biodata as PDF or image to easily share with family and potential matches
+
+✅ **Customizable Fields** - Add all essential information including personal details, family background, education, profession, and contact information
+
+✅ **Secure Account System** - Safely store your profile information with Google sign-in
+
+✅ **Completely Free** - All features available at no cost
+
+## What's New in V5.0:
+
+• Many bugs fixed for improved stability
+• Enhanced user experience with smoother navigation
+• Optimized performance for all devices
+• Completely redesigned templates with modern aesthetics
+
+Matrimo makes the traditional biodata creation process simple and stress-free. Stop struggling with complex word processors or paying designers - create beautiful marriage biodatas on your own with just a few taps!
+
+We appreciate your feedback as we continuously improve the app. Please share your suggestions through the in-app feedback option.
+
+Download Matrimo today and make a lasting first impression with your matrimonial profile!
+
+## App Tags
+matrimony, biodata, marriage, wedding, profile creator, matchmaking, shaadi
+
+## App Category
+Lifestyle, Productivity, Social
+
+## Privacy Policy Link
+[Your privacy policy link here]
+
+## Support Email
+[Your support email here]

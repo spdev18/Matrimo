@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Matrimo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#007BFF</item>
+        <item name="colorPrimaryDark">#0056D2</item>
+        <item name="colorAccent">#007BFF</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- Set default text colors -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/dark_gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Base TextInputLayout style with black text -->
+    <style name="Widget.Matrimo.TextInputLayout.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <!-- Hint and label text colors -->
+        <item name="hintTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+
+        <!-- Box stroke colors -->
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+
+        <!-- Error states -->
+        <item name="errorTextColor">@android:color/holo_red_light</item>
+
+        <!-- Helper text -->
+        <item name="helperTextTextColor">@color/black</item>
+    </style>
+
+    <style name="Widget.Matrimo.TextInputLayout.OutlinedBox.ExposedDropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="hintTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="endIconTint">@color/black</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <!-- Force white popup background -->
+        <item name="android:popupBackground">@color/white</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Matrimo.DropDown</item>
+    </style>
+
+    <style name="ThemeOverlay.Matrimo.DropDown" parent="">
+        <item name="colorControlActivated">@color/black</item>
+        <item name="autoCompleteTextViewStyle">@style/Widget.Matrimo.AutoCompleteTextView</item>
+    </style>
+
+    <style name="Widget.Matrimo.AutoCompleteTextView" parent="Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Google Sign-In Button style -->
+    <style name="formCardView" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeWidth">4dp</item>
+        <item name="strokeColor">#E0E0E0</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">1dp</item>
+    </style>
+
+    <!-- Google Sign-In Button style -->
+    <style name="WhiteGoogleCardView" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#E0E0E0</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="Theme.Matrimo" parent="Base.Theme.Matrimo" />
+</resources>

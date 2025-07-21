@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "689284758473",
+    "project_id": "matrimo-5de53",
+    "storage_bucket": "matrimo-5de53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689284758473:android:beece3f5174adb92594618",
+        "android_client_info": {
+          "package_name": "com.techotd.matrimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689284758473-r9at2dc1ns589nt4a2tc308vfb0dfqpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techotd.matrimo",
+            "certificate_hash": "a697b194cc3c123d048f84e0695abd5f13f2953f"
+          }
+        },
+        {
+          "client_id": "689284758473-ti7r99g7ml4pf8jj19n9704gmsg4dhsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNG5siMpLgCKkBJBzhxbprbKYYbksovK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689284758473-ti7r99g7ml4pf8jj19n9704gmsg4dhsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
